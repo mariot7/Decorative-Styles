@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ds",
+  "name": "Decorative Styles",
+  "description": "Decorative Styles is a mod that adds more blocks to the game.",
+  "version": "0.0.6",
+  "mcversion": "1.9.4",
+  "url": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2353884-wip-decorative-styles-who-doesnt-like-blocks-now",
+  "updateUrl": "",
+  "authorList": ["mariot7"],
+  "credits": "ewsmith, Francisco_Scaramanga_Jr, ransoshadofire, Glarnboudin",
+  "logoFile": "assets/ds/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": {"model": "ds:birch_wood_parquet"}
+    }
+}

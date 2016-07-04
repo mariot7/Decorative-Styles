@@ -1,0 +1,6 @@
+{
+     "parent": "block/cube_all",
+     "textures": {
+         "all": "ds:blocks/checked_glass"
+     }
+}
