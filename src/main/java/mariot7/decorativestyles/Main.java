@@ -1,8 +1,11 @@
 package mariot7.decorativestyles;
 
+import net.minecraft.block.Block;
+import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -16,7 +19,7 @@ import mariot7.decorativestyles.init.Smeltingds;
 import mariot7.decorativestyles.proxy.CommonProxy;
 import mariot7.decorativestyles.world.PumiceWorldGeneratords;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, updateJSON = Reference.updateJSON)
 public class Main {
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
@@ -31,7 +34,15 @@ public class Main {
 		BlockListds.register();
 		ItemListds.init();
 		ItemListds.register();
-	    }
+	}
+	
+    private Block registerBlock (Block block, String ID)
+    { 
+        block.setRegistryName(ID);
+        GameRegistry.register(block);
+        GameRegistry.register(new ItemBlock(block), block.getRegistryName());
+        return block;
+    }
     
 	@EventHandler
     public void init(FMLInitializationEvent event)
@@ -47,6 +58,8 @@ public class Main {
     {
 
     }
+	
+	
 }
 
 	

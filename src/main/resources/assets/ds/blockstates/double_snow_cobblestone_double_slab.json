@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "ds:snow_cobblestone_slab" },
+        "all":    { "model": "ds:snow_cobblestone_slab" }
+    }
+}

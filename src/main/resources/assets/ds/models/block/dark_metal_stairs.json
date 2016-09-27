@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "ds:blocks/dark_metal",
+        "top": "ds:blocks/dark_metal",
+        "side": "ds:blocks/dark_metal"
+    }
+}

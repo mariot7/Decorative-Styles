@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "ds:blocks/rusty_block",
+        "top": "ds:blocks/rusty_block",
+        "side": "ds:blocks/rusty_block"
+    }
+}

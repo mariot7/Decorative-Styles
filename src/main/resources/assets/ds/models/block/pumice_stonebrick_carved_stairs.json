@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "ds:blocks/pumice_stonebrick_carved",
+        "top": "ds:blocks/pumice_stonebrick_carved",
+        "side": "ds:blocks/pumice_stonebrick_carved"
+    }
+}

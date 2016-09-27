@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "ds:blocks/spruce_wood_parquet",
+        "top": "ds:blocks/spruce_wood_parquet",
+        "side": "ds:blocks/spruce_wood_parquet"
+    }
+}

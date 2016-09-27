@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "ds:blocks/polished_pumice",
+        "top": "ds:blocks/polished_pumice",
+        "side": "ds:blocks/polished_pumice"
+    }
+}

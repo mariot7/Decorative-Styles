@@ -1,0 +1,17 @@
+{
+  "homepage": "http://minecraft.curseforge.com/projects/decorative-styles/files",
+  "promos": {
+    "1.9.4-latest": "0.1.0",
+    "1.9.4-recommended": "1.9.4-0.1.0",
+    "1.10.2-latest": "0.1.0",
+    "1.10.2-recommended": "1.10.2-0.1.0"
+  },
+    "1.9.4": {
+    "0.1.0": "Added version checker and stairs for all solid blocks.",
+    "1.9.4-0.1.0": "Added version checker and stairs for all solid blocks."
+  },
+    "1.10.2": {
+    "0.1.0": "Added version checker and stairs for all solid blocks.",
+    "1.10.2-0.1.0": "Added version checker and stairs for all solid blocks."
+  }
+}

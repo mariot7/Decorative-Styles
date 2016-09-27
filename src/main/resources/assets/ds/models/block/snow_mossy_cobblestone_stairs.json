@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "ds:blocks/snow_mossy_cobblestone",
+        "top": "ds:blocks/snow_mossy_cobblestone",
+        "side": "ds:blocks/snow_mossy_cobblestone"
+    }
+}

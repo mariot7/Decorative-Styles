@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "ds:blocks/snow_stonebrick_carved",
+        "top": "ds:blocks/snow_stonebrick_carved",
+        "side": "ds:blocks/snow_stonebrick_carved"
+    }
+}

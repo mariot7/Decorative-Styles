@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "ds:blocks/white_stonebrick_cracked",
+        "top": "ds:blocks/white_stonebrick_cracked",
+        "side": "ds:blocks/white_stonebrick_cracked"
+    }
+}
